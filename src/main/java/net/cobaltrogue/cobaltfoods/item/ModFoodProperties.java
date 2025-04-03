@@ -75,4 +75,25 @@ public class ModFoodProperties {
             .fast()
             .build();
 
+    // Mashed Potatoes
+    public static final FoodProperties MASHED_POTATOES = new FoodProperties.Builder()
+            .nutrition(5)
+            .saturationModifier(0.60f)
+            .build();
+    public static final FoodProperties LOADED_MASHED_POTATOES = new FoodProperties.Builder()
+            .nutrition(9)
+            .saturationModifier(0.60f)
+            .build();
+
+    // Cheese
+    public static final FoodProperties CHEESE = new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .build();
+
+    // Grilled Cheese
+    public static final FoodProperties GRILLED_CHEESE = new FoodProperties.Builder()
+            .nutrition(8)
+            .saturationModifier(0.60f)
+            .build();
 }

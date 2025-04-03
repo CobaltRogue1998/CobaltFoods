@@ -28,12 +28,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HONEY_TOAST);
                         output.accept(ModItems.APPLE_BREAD);
                         output.accept(ModItems.PUMPKIN_BREAD);
+                        output.accept(ModItems.GRILLED_CHEESE);
                         output.accept(ModItems.SNOW_CREAM);
+                        output.accept(ModItems.MASHED_POTATOES);
+                        output.accept(ModItems.LOADED_MASHED_POTATOES);
                         output.accept(ModItems.RAW_BACON);
                         output.accept(ModItems.CRISPY_BACON);
                         output.accept(ModItems.ROTTEN_APPLE);
                         output.accept(ModItems.IRON_APPLE);
                         output.accept(ModItems.OBSIDIAN_APPLE);
+                        output.accept(ModItems.CHEESE);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cobaltfoods:cheese"
+    },
+    {
+      "item": "cobaltfoods:crispy_bacon"
+    },
+    {
+      "item": "cobaltfoods:mashed_potatoes"
+    }
+  ],
+  "result": {
+    "id": "cobaltfoods:loaded_mashed_potatoes"
+  }
+}

@@ -39,6 +39,14 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.IRON_APPLE)));
     public static final DeferredItem<Item> OBSIDIAN_APPLE = ITEMS.register("obsidian_apple",
             () -> new Item(new Item.Properties().food(ModFoodProperties.OBSIDIAN_APPLE)));
+    public static final DeferredItem<Item> MASHED_POTATOES = ITEMS.register("mashed_potatoes",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MASHED_POTATOES)));
+    public static final DeferredItem<Item> LOADED_MASHED_POTATOES = ITEMS.register("loaded_mashed_potatoes",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.LOADED_MASHED_POTATOES)));
+    public static final DeferredItem<Item> CHEESE = ITEMS.register("cheese",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CHEESE)));
+    public static final DeferredItem<Item> GRILLED_CHEESE = ITEMS.register("grilled_cheese",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GRILLED_CHEESE)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
