@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.APPLE_BREAD);
                         output.accept(ModItems.PUMPKIN_BREAD);
                         output.accept(ModItems.GRILLED_CHEESE);
+                        output.accept(ModItems.HAM_AND_CHEESE);
                         output.accept(ModItems.SNOW_CREAM);
                         output.accept(ModItems.MASHED_POTATOES);
                         output.accept(ModItems.LOADED_MASHED_POTATOES);
@@ -38,6 +39,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.IRON_APPLE);
                         output.accept(ModItems.OBSIDIAN_APPLE);
                         output.accept(ModItems.CHEESE);
+                        output.accept(ModItems.MELON_JUICE);
+                        output.accept(ModItems.APPLE_JUICE);
+                        output.accept(ModItems.CARROT_JUICE);
+                        output.accept(ModItems.GLOW_BERRY_JUICE);
+                        output.accept(ModItems.SWEET_BERRY_JUICE);
+                        output.accept(ModItems.KELP_JUICE);
+                        output.accept(ModItems.ZOMBIE_JERKY);
 
                     }).build());
 

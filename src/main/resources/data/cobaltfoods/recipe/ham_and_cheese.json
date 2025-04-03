@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cobaltfoods:toast"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "cobaltfoods:cheese"
+    }
+  ],
+  "result": {
+    "id": "cobaltfoods:ham_and_cheese"
+  }
+}

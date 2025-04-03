@@ -91,9 +91,56 @@ public class ModFoodProperties {
             .saturationModifier(0.50f)
             .build();
 
-    // Grilled Cheese
+    // Sandwiches
     public static final FoodProperties GRILLED_CHEESE = new FoodProperties.Builder()
             .nutrition(8)
             .saturationModifier(0.60f)
+            .build();
+
+    public static final FoodProperties HAM_AND_CHEESE = new FoodProperties.Builder()
+            .nutrition(12)
+            .saturationModifier(0.60f)
+            .build();
+
+    // Juices
+    public static final FoodProperties MELON_JUICE= new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 100f)
+            .fast()
+            .build();
+    public static final FoodProperties APPLE_JUICE= new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 100f)
+            .fast()
+            .build();
+    public static final FoodProperties CARROT_JUICE= new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 0), 100f)
+            .fast()
+            .build();
+    public static final FoodProperties SWEET_BERRY_JUICE= new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.JUMP, 200, 0), 100f)
+            .fast()
+            .build();
+    public static final FoodProperties GLOW_BERRY_JUICE= new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 600, 0), 100f)
+            .fast()
+            .build();
+    public static final FoodProperties KELP_JUICE = new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.WATER_BREATHING, 200, 0), 100f)
+            .fast()
+            .build();
+    public static final FoodProperties ZOMBIE_JERKY = new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
             .build();
 }

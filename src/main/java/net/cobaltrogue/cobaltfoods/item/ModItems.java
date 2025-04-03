@@ -47,6 +47,22 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.CHEESE)));
     public static final DeferredItem<Item> GRILLED_CHEESE = ITEMS.register("grilled_cheese",
             () -> new Item(new Item.Properties().food(ModFoodProperties.GRILLED_CHEESE)));
+    public static final DeferredItem<Item> HAM_AND_CHEESE = ITEMS.register("ham_and_cheese",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.HAM_AND_CHEESE)));
+    public static final DeferredItem<Item> MELON_JUICE = ITEMS.register("melon_juice",
+            () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.MELON_JUICE)));
+    public static final DeferredItem<Item> APPLE_JUICE = ITEMS.register("apple_juice",
+            () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.APPLE_JUICE)));
+    public static final DeferredItem<Item> CARROT_JUICE = ITEMS.register("carrot_juice",
+            () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.CARROT_JUICE)));
+    public static final DeferredItem<Item> SWEET_BERRY_JUICE = ITEMS.register("sweet_berry_juice",
+            () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_JUICE)));
+    public static final DeferredItem<Item> GLOW_BERRY_JUICE = ITEMS.register("glow_berry_juice",
+            () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_JUICE)));
+    public static final DeferredItem<Item> KELP_JUICE = ITEMS.register("kelp_juice",
+            () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.KELP_JUICE)));
+    public static final DeferredItem<Item> ZOMBIE_JERKY = ITEMS.register("zombie_jerky",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ZOMBIE_JERKY)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
