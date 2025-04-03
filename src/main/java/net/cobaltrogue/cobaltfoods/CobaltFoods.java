@@ -1,5 +1,6 @@
 package net.cobaltrogue.cobaltfoods;
 
+import net.cobaltrogue.cobaltfoods.item.ModCreativeModeTabs;
 import net.cobaltrogue.cobaltfoods.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -38,6 +39,7 @@ public class CobaltFoods
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -54,7 +56,6 @@ public class CobaltFoods
     // CREATIVE REGISTER
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModItems.TOAST);
         }
     }
 
