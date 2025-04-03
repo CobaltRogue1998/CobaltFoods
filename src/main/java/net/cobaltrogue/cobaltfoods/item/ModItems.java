@@ -29,7 +29,16 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.APPLE_BREAD)));
     public static final DeferredItem<Item> SNOW_CREAM = ITEMS.register("snow_cream",
             () -> new Item(new Item.Properties().food(ModFoodProperties.SNOW_CREAM)));
-
+    public static final DeferredItem<Item> RAW_BACON = ITEMS.register("raw_bacon",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_BACON)));
+    public static final DeferredItem<Item> CRISPY_BACON = ITEMS.register("crispy_bacon",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CRISPY_BACON)));
+    public static final DeferredItem<Item> ROTTEN_APPLE = ITEMS.register("rotten_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ROTTEN_APPLE)));
+    public static final DeferredItem<Item> IRON_APPLE = ITEMS.register("iron_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.IRON_APPLE)));
+    public static final DeferredItem<Item> OBSIDIAN_APPLE = ITEMS.register("obsidian_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.OBSIDIAN_APPLE)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

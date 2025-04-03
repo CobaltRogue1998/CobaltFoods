@@ -21,14 +21,19 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TOAST.get()))
                     .title(Component.translatable("CREATIVE_MODE_TAB.cobalt_foods"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.TOAST);
                         output.accept(ModItems.DOUGH);
                         output.accept(ModItems.APPLE_DOUGH);
                         output.accept(ModItems.PUMPKIN_DOUGH);
+                        output.accept(ModItems.TOAST);
                         output.accept(ModItems.HONEY_TOAST);
                         output.accept(ModItems.APPLE_BREAD);
                         output.accept(ModItems.PUMPKIN_BREAD);
                         output.accept(ModItems.SNOW_CREAM);
+                        output.accept(ModItems.RAW_BACON);
+                        output.accept(ModItems.CRISPY_BACON);
+                        output.accept(ModItems.ROTTEN_APPLE);
+                        output.accept(ModItems.IRON_APPLE);
+                        output.accept(ModItems.OBSIDIAN_APPLE);
                     }).build());
 
     public static void register(IEventBus eventBus) {
