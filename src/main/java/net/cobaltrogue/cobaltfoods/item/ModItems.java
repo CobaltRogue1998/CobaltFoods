@@ -14,6 +14,19 @@ public class ModItems {
 
     public static final DeferredItem<Item> TOAST = ITEMS.register("toast",
             () -> new Item(new Item.Properties().food(ModFoodProperties.TOAST)));
+    public static final DeferredItem<Item> HONEY_TOAST = ITEMS.register("honey_toast",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.HONEY_TOAST)));
+    public static final DeferredItem<Item> DOUGH = ITEMS.register("dough",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.DOUGH)));
+    public static final DeferredItem<Item> APPLE_DOUGH = ITEMS.register("apple_dough",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.APPLE_DOUGH)));
+    public static final DeferredItem<Item> PUMPKIN_DOUGH = ITEMS.register("pumpkin_dough",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.PUMPKIN_DOUGH)));
+    public static final DeferredItem<Item> PUMPKIN_BREAD = ITEMS.register("pumpkin_bread",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.PUMPKIN_BREAD)));
+    public static final DeferredItem<Item> APPLE_BREAD = ITEMS.register("apple_bread",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.APPLE_BREAD)));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

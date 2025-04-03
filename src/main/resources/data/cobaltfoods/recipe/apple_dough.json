@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "cobaltfoods:dough"
+    },
+    "B": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "cobaltfoods:apple_dough"
+  }
+}

@@ -22,6 +22,12 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("CREATIVE_MODE_TAB.cobalt_foods"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TOAST);
+                        output.accept(ModItems.DOUGH);
+                        output.accept(ModItems.APPLE_DOUGH);
+                        output.accept(ModItems.PUMPKIN_DOUGH);
+                        output.accept(ModItems.HONEY_TOAST);
+                        output.accept(ModItems.APPLE_BREAD);
+                        output.accept(ModItems.PUMPKIN_BREAD);
                     }).build());
 
     public static void register(IEventBus eventBus) {

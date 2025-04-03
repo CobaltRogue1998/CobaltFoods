@@ -1,4 +1,10 @@
 {
   "CREATIVE_MODE_TAB.cobalt_foods": "Cobalt's Foods",
-  "item.cobaltfoods.toast": "Toast"
+  "item.cobaltfoods.toast": "Toast",
+  "item.cobaltfoods.honey_toast": "Honey on Toast",
+  "item.cobaltfoods.dough": "Raw Dough",
+  "item.cobaltfoods.pumpkin_dough": "Raw Pumpkin Dough",
+  "item.cobaltfoods.apple_dough": "Raw Apple Dough",
+  "item.cobaltfoods.apple_bread": "Apple Bread",
+  "item.cobaltfoods.pumpkin_bread": "Pumpkin Bread"
 }
