@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "#": {
+      "item": "cobaltfoods:toast"
+    },
+    "B": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "cobaltfoods:honey_toast"
+  }
+}

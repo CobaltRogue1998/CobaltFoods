@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "cobaltfoods:apple_dough"
+  },
+  "result": {
+    "id": "cobaltfoods:apple_bread"
+  }
+}

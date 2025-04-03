@@ -3,6 +3,7 @@ package net.cobaltrogue.cobaltfoods;
 import net.cobaltrogue.cobaltfoods.item.ModCreativeModeTabs;
 import net.cobaltrogue.cobaltfoods.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Items;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

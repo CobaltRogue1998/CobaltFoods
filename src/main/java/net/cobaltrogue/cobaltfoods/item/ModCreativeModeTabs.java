@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HONEY_TOAST);
                         output.accept(ModItems.APPLE_BREAD);
                         output.accept(ModItems.PUMPKIN_BREAD);
+                        output.accept(ModItems.SNOW_CREAM);
                     }).build());
 
     public static void register(IEventBus eventBus) {

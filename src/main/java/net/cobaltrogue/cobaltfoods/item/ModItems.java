@@ -5,6 +5,7 @@ import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.HoneyBottleItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PotionItem;
+import net.minecraft.world.item.SuspiciousStewItem;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -26,6 +27,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.PUMPKIN_BREAD)));
     public static final DeferredItem<Item> APPLE_BREAD = ITEMS.register("apple_bread",
             () -> new Item(new Item.Properties().food(ModFoodProperties.APPLE_BREAD)));
+    public static final DeferredItem<Item> SNOW_CREAM = ITEMS.register("snow_cream",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SNOW_CREAM)));
 
 
     public static void register(IEventBus eventBus){
