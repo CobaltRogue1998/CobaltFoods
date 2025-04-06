@@ -2,10 +2,7 @@ package net.cobaltrogue.cobaltfoods.item;
 
 import net.cobaltrogue.cobaltfoods.CobaltFoods;
 import net.minecraft.world.food.Foods;
-import net.minecraft.world.item.HoneyBottleItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PotionItem;
-import net.minecraft.world.item.SuspiciousStewItem;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -55,6 +52,8 @@ public class ModItems {
             () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.APPLE_JUICE)));
     public static final DeferredItem<Item> CARROT_JUICE = ITEMS.register("carrot_juice",
             () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.CARROT_JUICE)));
+    public static final DeferredItem<Item> BEETROOT_JUICE = ITEMS.register("beetroot_juice",
+            () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.BEETROOT_JUICE)));
     public static final DeferredItem<Item> SWEET_BERRY_JUICE = ITEMS.register("sweet_berry_juice",
             () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_JUICE)));
     public static final DeferredItem<Item> GLOW_BERRY_JUICE = ITEMS.register("glow_berry_juice",
@@ -63,6 +62,26 @@ public class ModItems {
             () -> new HoneyBottleItem(new Item.Properties().food(ModFoodProperties.KELP_JUICE)));
     public static final DeferredItem<Item> ZOMBIE_JERKY = ITEMS.register("zombie_jerky",
             () -> new Item(new Item.Properties().food(ModFoodProperties.ZOMBIE_JERKY)));
+    public static final DeferredItem<Item> SUNFLOWER_SEEDS = ITEMS.register("sunflower_seeds",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SUNFLOWER_SEEDS)));
+    public static final DeferredItem<Item> TRAIL_MIX = ITEMS.register("trail_mix",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TRAIL_MIX)));
+    public static final DeferredItem<Item> PAPER_CONE = ITEMS.register("paper_cone",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> UNFLAVORED_SNOW_CONE = ITEMS.register("unflavored_snow_cone",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.UNFLAVORED_SNOW_CONE)));
+    public static final DeferredItem<Item> APPLE_SNOW_CONE = ITEMS.register("apple_snow_cone",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.APPLE_SNOW_CONE)));
+    public static final DeferredItem<Item> MELON_SNOW_CONE = ITEMS.register("melon_snow_cone",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MELON_SNOW_CONE)));
+    public static final DeferredItem<Item> GLOW_BERRY_SNOW_CONE = ITEMS.register("glow_berry_snow_cone",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_SNOW_CONE)));
+    public static final DeferredItem<Item> SWEET_BERRY_SNOW_CONE = ITEMS.register("sweet_berry_snow_cone",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_SNOW_CONE)));
+    public static final DeferredItem<Item> RAW_CALAMARI = ITEMS.register("raw_calamari",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_CALAMARI)));
+    public static final DeferredItem<Item> COOKED_CALAMARI = ITEMS.register("cooked_calamari",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_CALAMARI)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

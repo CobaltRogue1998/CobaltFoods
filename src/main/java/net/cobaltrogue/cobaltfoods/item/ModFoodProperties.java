@@ -1,11 +1,13 @@
 package net.cobaltrogue.cobaltfoods.item;
 
+import net.cobaltrogue.cobaltfoods.CobaltFoods;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Items;
 
 public class ModFoodProperties {
+
     // Toast & Bread
     public static final FoodProperties TOAST = new FoodProperties.Builder()
             .nutrition(7)
@@ -62,6 +64,7 @@ public class ModFoodProperties {
             .nutrition(4)
             .saturationModifier(0.4f)
             .usingConvertsTo(Items.BOWL)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2), 0.20f)
             .build();
     // Bacon
     public static final FoodProperties RAW_BACON = new FoodProperties.Builder()
@@ -121,6 +124,12 @@ public class ModFoodProperties {
             .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 0), 100f)
             .fast()
             .build();
+    public static final FoodProperties BEETROOT_JUICE= new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 200, 1), 100f)
+            .fast()
+            .build();
     public static final FoodProperties SWEET_BERRY_JUICE= new FoodProperties.Builder()
             .nutrition(4)
             .saturationModifier(0.50f)
@@ -142,5 +151,58 @@ public class ModFoodProperties {
     public static final FoodProperties ZOMBIE_JERKY = new FoodProperties.Builder()
             .nutrition(4)
             .saturationModifier(0.50f)
+            .build();
+    public static final FoodProperties SUNFLOWER_SEEDS = new FoodProperties.Builder()
+            .nutrition(2)
+            .saturationModifier(0.50f)
+            .fast()
+            .build();
+    public static final FoodProperties TRAIL_MIX = new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.75f)
+            .fast()
+            .build();
+    public static final FoodProperties UNFLAVORED_SNOW_CONE = new FoodProperties.Builder()
+            .nutrition(2)
+            .saturationModifier(0.50f)
+            .alwaysEdible()
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 300, 2), 0.20f)
+            .build();
+    public static final FoodProperties APPLE_SNOW_CONE = new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.40f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 100f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2), 0.20f)
+            .alwaysEdible()
+            .build();
+    public static final FoodProperties MELON_SNOW_CONE = new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.40f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 100f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2), 0.20f)
+            .alwaysEdible()
+            .build();
+    public static final FoodProperties SWEET_BERRY_SNOW_CONE = new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.40f)
+            .effect(() -> new MobEffectInstance(MobEffects.JUMP, 200, 0), 100f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2), 0.20f)
+            .alwaysEdible()
+            .build();
+    public static final FoodProperties GLOW_BERRY_SNOW_CONE = new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.40f)
+            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 600, 0), 100f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2), 0.20f)
+            .alwaysEdible()
+            .build();
+    public static final FoodProperties RAW_CALAMARI = new FoodProperties.Builder()
+            .nutrition(2)
+            .saturationModifier(0.20f)
+            .build();
+    public static final FoodProperties COOKED_CALAMARI = new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.30f)
             .build();
 }

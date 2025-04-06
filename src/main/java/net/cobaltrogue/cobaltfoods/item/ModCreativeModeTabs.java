@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LOADED_MASHED_POTATOES);
                         output.accept(ModItems.RAW_BACON);
                         output.accept(ModItems.CRISPY_BACON);
+                        output.accept(ModItems.RAW_CALAMARI);
+                        output.accept(ModItems.COOKED_CALAMARI);
                         output.accept(ModItems.ROTTEN_APPLE);
                         output.accept(ModItems.IRON_APPLE);
                         output.accept(ModItems.OBSIDIAN_APPLE);
@@ -42,11 +44,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MELON_JUICE);
                         output.accept(ModItems.APPLE_JUICE);
                         output.accept(ModItems.CARROT_JUICE);
+                        output.accept(ModItems.BEETROOT_JUICE);
                         output.accept(ModItems.GLOW_BERRY_JUICE);
                         output.accept(ModItems.SWEET_BERRY_JUICE);
                         output.accept(ModItems.KELP_JUICE);
                         output.accept(ModItems.ZOMBIE_JERKY);
-
+                        output.accept(ModItems.PAPER_CONE);
+                        output.accept(ModItems.UNFLAVORED_SNOW_CONE);
+                        output.accept(ModItems.APPLE_SNOW_CONE);
+                        output.accept(ModItems.MELON_SNOW_CONE);
+                        output.accept(ModItems.GLOW_BERRY_SNOW_CONE);
+                        output.accept(ModItems.SWEET_BERRY_SNOW_CONE);
+                        output.accept(ModItems.SUNFLOWER_SEEDS);
+                        output.accept(ModItems.TRAIL_MIX);
                     }).build());
 
     public static void register(IEventBus eventBus) {
