@@ -71,6 +71,7 @@ public class ModFoodProperties {
             .nutrition(2)
             .saturationModifier(0.50f)
             .fast()
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.30f)
             .build();
     public static final FoodProperties CRISPY_BACON = new FoodProperties.Builder()
             .nutrition(4)
@@ -199,10 +200,10 @@ public class ModFoodProperties {
     public static final FoodProperties RAW_CALAMARI = new FoodProperties.Builder()
             .nutrition(2)
             .saturationModifier(0.20f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.30f)
             .build();
     public static final FoodProperties COOKED_CALAMARI = new FoodProperties.Builder()
             .nutrition(6)
             .saturationModifier(0.50f)
-            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.30f)
             .build();
 }
