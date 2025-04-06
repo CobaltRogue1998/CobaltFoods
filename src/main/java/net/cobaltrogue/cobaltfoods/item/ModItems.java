@@ -82,6 +82,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_CALAMARI)));
     public static final DeferredItem<Item> COOKED_CALAMARI = ITEMS.register("cooked_calamari",
             () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_CALAMARI)));
+    public static final DeferredItem<Item> RAW_CHICKEN_LEG = ITEMS.register("raw_chicken_leg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_CHICKEN_LEG)));
+    public static final DeferredItem<Item> COOKED_CHICKEN_LEG = ITEMS.register("cooked_chicken_leg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_CHICKEN_LEG)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -35,7 +35,11 @@
   "item.cobaltfoods.sunflower_seeds": "Sunflower Seeds",
   "item.cobaltfoods.trail_mix": "Trail Mix",
   "item.cobaltfoods.raw_calamari": "Raw Calamari",
-  "item.cobaltfoods.cooked_calamari": "Cooked Calamari"
+  "item.cobaltfoods.cooked_calamari": "Cooked Calamari",
+  "item.cobaltfoods.raw_chicken_leg": "Raw Chicken Leg",
+  "item.cobaltfoods.cooked_chicken_leg": "Cooked Chicken Leg",
+  "item.minecraft.chicken": "Raw Chicken Breast",
+  "item.minecraft.cooked_chicken": "Cooked Chicken Breast"
 
 
 }

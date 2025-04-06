@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "cobaltfoods:raw_chicken_leg"
+  },
+  "result": {
+    "id": "cobaltfoods:cooked_chicken_leg"
+  }
+}

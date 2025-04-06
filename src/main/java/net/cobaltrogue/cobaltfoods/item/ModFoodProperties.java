@@ -206,4 +206,15 @@ public class ModFoodProperties {
             .nutrition(6)
             .saturationModifier(0.50f)
             .build();
+    public static final FoodProperties RAW_CHICKEN_LEG = new FoodProperties.Builder()
+            .nutrition(2)
+            .saturationModifier(0.50f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.30f)
+            .usingConvertsTo(Items.BONE)
+            .build();
+    public static final FoodProperties COOKED_CHICKEN_LEG = new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.40f)
+            .usingConvertsTo(Items.BONE)
+            .build();
 }

@@ -37,6 +37,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CRISPY_BACON);
                         output.accept(ModItems.RAW_CALAMARI);
                         output.accept(ModItems.COOKED_CALAMARI);
+                        output.accept(ModItems.RAW_CHICKEN_LEG);
+                        output.accept(ModItems.COOKED_CHICKEN_LEG);
                         output.accept(ModItems.ROTTEN_APPLE);
                         output.accept(ModItems.IRON_APPLE);
                         output.accept(ModItems.OBSIDIAN_APPLE);

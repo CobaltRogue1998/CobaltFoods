@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "cobaltfoods:raw_chicken_leg"
+  },
+  "result": {
+    "id": "cobaltfoods:cooked_chicken_leg"
+  }
+}
