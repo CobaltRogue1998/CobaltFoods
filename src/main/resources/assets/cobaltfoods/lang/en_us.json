@@ -39,7 +39,14 @@
   "item.cobaltfoods.raw_chicken_leg": "Raw Chicken Leg",
   "item.cobaltfoods.cooked_chicken_leg": "Cooked Chicken Leg",
   "item.minecraft.chicken": "Raw Chicken Breast",
-  "item.minecraft.cooked_chicken": "Cooked Chicken Breast"
+  "item.minecraft.cooked_chicken": "Cooked Chicken Breast",
+  "item.cobaltfoods.roasted_brown_mushroom": "Roasted Brown Mushroom",
+  "item.cobaltfoods.roasted_red_mushroom": "Roasted Red Mushroom",
+  "item.cobaltfoods.toasted_pumpkin_seeds": "Toasted Pumpkin Seeds",
+  "item.cobaltfoods.caramel": "Caramel",
+  "item.cobaltfoods.caramel_apple": "Caramel Apple",
+  "item.cobaltfoods.pasta": "Pasta"
+
 
 
 }

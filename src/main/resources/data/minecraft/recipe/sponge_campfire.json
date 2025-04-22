@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "minecraft:wet_sponge"
+  },
+  "result": {
+    "id": "minecraft:sponge"
+  }
+}

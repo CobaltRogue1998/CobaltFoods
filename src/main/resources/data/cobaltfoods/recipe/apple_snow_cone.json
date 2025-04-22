@@ -3,14 +3,13 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "minecraft:sunflower"
+      "item": "cobaltfoods:unflavored_snow_cone"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "cobaltfoods:apple_juice"
     }
   ],
   "result": {
-    "count": 8,
-    "id": "cobaltfoods:sunflower_seeds"
+    "id": "cobaltfoods:apple_snow_cone"
   }
 }

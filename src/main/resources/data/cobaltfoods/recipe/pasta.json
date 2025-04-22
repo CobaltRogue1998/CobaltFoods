@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "cobaltfoods:dough"
+    },
+    "B": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "cobaltfoods:pasta"
+  }
+}

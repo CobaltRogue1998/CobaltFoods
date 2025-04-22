@@ -59,6 +59,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SWEET_BERRY_SNOW_CONE);
                         output.accept(ModItems.SUNFLOWER_SEEDS);
                         output.accept(ModItems.TRAIL_MIX);
+                        output.accept(ModItems.ROASTED_BROWN_MUSHROOM);
+                        output.accept(ModItems.ROASTED_RED_MUSHROOM);
+                        output.accept(ModItems.TOASTED_PUMPKIN_SEEDS);
+                        output.accept(ModItems.CARAMEL);
+                        output.accept(ModItems.CARAMEL_APPLE);
+                        output.accept(ModItems.PASTA);
+
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

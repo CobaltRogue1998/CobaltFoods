@@ -83,10 +83,12 @@ public class ModFoodProperties {
     public static final FoodProperties MASHED_POTATOES = new FoodProperties.Builder()
             .nutrition(5)
             .saturationModifier(0.60f)
+            .usingConvertsTo(Items.BOWL)
             .build();
     public static final FoodProperties LOADED_MASHED_POTATOES = new FoodProperties.Builder()
             .nutrition(9)
             .saturationModifier(0.60f)
+            .usingConvertsTo(Items.BOWL)
             .build();
 
     // Cheese
@@ -111,43 +113,36 @@ public class ModFoodProperties {
             .nutrition(4)
             .saturationModifier(0.50f)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 100f)
-            .fast()
             .build();
     public static final FoodProperties APPLE_JUICE= new FoodProperties.Builder()
             .nutrition(4)
             .saturationModifier(0.50f)
             .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 100f)
-            .fast()
             .build();
     public static final FoodProperties CARROT_JUICE= new FoodProperties.Builder()
             .nutrition(4)
             .saturationModifier(0.50f)
             .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 0), 100f)
-            .fast()
             .build();
     public static final FoodProperties BEETROOT_JUICE= new FoodProperties.Builder()
             .nutrition(4)
             .saturationModifier(0.50f)
             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 200, 1), 100f)
-            .fast()
             .build();
     public static final FoodProperties SWEET_BERRY_JUICE= new FoodProperties.Builder()
             .nutrition(4)
             .saturationModifier(0.50f)
             .effect(() -> new MobEffectInstance(MobEffects.JUMP, 200, 0), 100f)
-            .fast()
             .build();
     public static final FoodProperties GLOW_BERRY_JUICE= new FoodProperties.Builder()
             .nutrition(4)
             .saturationModifier(0.50f)
             .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 600, 0), 100f)
-            .fast()
             .build();
     public static final FoodProperties KELP_JUICE = new FoodProperties.Builder()
             .nutrition(4)
             .saturationModifier(0.50f)
             .effect(() -> new MobEffectInstance(MobEffects.WATER_BREATHING, 200, 0), 100f)
-            .fast()
             .build();
     public static final FoodProperties ZOMBIE_JERKY = new FoodProperties.Builder()
             .nutrition(4)
@@ -155,7 +150,7 @@ public class ModFoodProperties {
             .build();
     public static final FoodProperties SUNFLOWER_SEEDS = new FoodProperties.Builder()
             .nutrition(2)
-            .saturationModifier(0.50f)
+            .saturationModifier(0.80f)
             .fast()
             .build();
     public static final FoodProperties TRAIL_MIX = new FoodProperties.Builder()
@@ -216,5 +211,28 @@ public class ModFoodProperties {
             .nutrition(6)
             .saturationModifier(0.40f)
             .usingConvertsTo(Items.BONE)
+            .build();
+    public static final FoodProperties ROASTED_BROWN_MUSHROOM = new FoodProperties.Builder()
+            .nutrition(3)
+            .saturationModifier(0.50f)
+            .fast()
+            .build();
+    public static final FoodProperties ROASTED_RED_MUSHROOM = new FoodProperties.Builder()
+            .nutrition(3)
+            .saturationModifier(0.50f)
+            .fast()
+            .build();
+    public static final FoodProperties TOASTED_PUMPKIN_SEEDS = new FoodProperties.Builder()
+            .nutrition(2)
+            .saturationModifier(0.80f)
+            .fast()
+            .build();
+    public static final FoodProperties CARAMEL = new FoodProperties.Builder()
+            .nutrition(3)
+            .saturationModifier(0.70f)
+            .build();
+    public static final FoodProperties CARAMEL_APPLE = new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.75f)
             .build();
 }

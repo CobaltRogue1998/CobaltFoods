@@ -3,14 +3,13 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "cobaltfoods:caramel"
     }
   ],
   "result": {
-    "count": 8,
-    "id": "cobaltfoods:sunflower_seeds"
+    "id": "cobaltfoods:caramel_apple"
   }
 }

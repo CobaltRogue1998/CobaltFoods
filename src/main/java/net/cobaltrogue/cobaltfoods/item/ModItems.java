@@ -86,6 +86,19 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_CHICKEN_LEG)));
     public static final DeferredItem<Item> COOKED_CHICKEN_LEG = ITEMS.register("cooked_chicken_leg",
             () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_CHICKEN_LEG)));
+    public static final DeferredItem<Item> ROASTED_BROWN_MUSHROOM = ITEMS.register("roasted_brown_mushroom",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ROASTED_BROWN_MUSHROOM)));
+    public static final DeferredItem<Item> ROASTED_RED_MUSHROOM = ITEMS.register("roasted_red_mushroom",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ROASTED_RED_MUSHROOM)));
+    public static final DeferredItem<Item> TOASTED_PUMPKIN_SEEDS = ITEMS.register("toasted_pumpkin_seeds",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TOASTED_PUMPKIN_SEEDS)));
+    public static final DeferredItem<Item> CARAMEL = ITEMS.register("caramel",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CARAMEL)));
+    public static final DeferredItem<Item> CARAMEL_APPLE = ITEMS.register("caramel_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CARAMEL_APPLE)));
+    public static final DeferredItem<Item> PASTA = ITEMS.register("pasta",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
